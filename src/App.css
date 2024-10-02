@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  background-image: url(../public/27954731_5400_8_04.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100dvh;
+  font-family: sans-serif;
+  color: black;
+  text-align: center;
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10rem;
+  text-decoration: none;
+}
+
+footer {
+  text-decoration: none;
+
+}
+
+nav {
+  text-decoration: none;
+}
+
+
+
