@@ -7,38 +7,60 @@
 html {
   font-size: 62.5%;
 }
+
 body {
-  display: flex;
-  font-size: 2rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-family: sans-serif;
 }
 
 .App {
+  background-size: cover;
   background-image: url(../public/27954731_5400_8_04.svg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100dvh;
-  font-family: sans-serif;
-  color: black;
-  text-align: center;
-  gap: 1rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  gap: 10rem;
-  text-decoration: none;
+  height: 100dvh;
+ 
 }
 
-footer {
+a {
+  color: white;
   text-decoration: none;
-
+  padding: 10dvh;
+  font-size: 18px;
 }
 
-nav {
-  text-decoration: none;
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 15dvh;
+  width: 100dvw;
+  background-color: rgb(224, 165, 195);
 }
 
 
 
+.container h1 {
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.foot {
+  display: flex;
+  align-items: center;
+  background-color: rgb(224, 165, 195);
+  font-size: 10px;
+
+  
+}
+
+.aside {
+  text-align: center;
+  padding: 10dvh;
+}

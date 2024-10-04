@@ -1,10 +1,10 @@
-import React from "react";
+
 
 
 const Page2 = () => {
   return (
     <div className="container">
-      <h1>Pagina-2</h1>
+      <h1>Bem vindo a pagina 2</h1>
       <aside className="aside">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
         voluptatum at omnis rem harum eos minima, earum officia culpa,

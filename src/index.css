@@ -1,75 +1,72 @@
+/* Resetando margens e preenchimento padrões */
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-  }
-  
-  .App {
-    background-image: url(../public/27954731_5400_8_04.svg);
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    height: 100vh;
-    font-family: sans-serif;
-    color: black;
-    text-align: center;
-  }
-  
-  
-  .navbar {
-    display: flex;
-    background-color: antiquewhite;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  
-  body {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100dvh;
-    width: 100dvw;
-  }
-  
-  h1 {
-    padding: 20px;
-    text-align: justify;
-   
-  }
-  
-  .container {
-    display: flex;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
-  }
-  body {
-    background-color: antiquewhite;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100dvw; 
-    height: 100dvh;
-    background-size: cover;
-    
-  }
-  
-  .aside {
-    color: #1d0414;
-    text-align: center;
-    font-size: large;
-    background-color: antiquewhite;
-  
-  }
+/* Corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Cor de fundo */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilo para o conteúdo principal */
+.main-content {
+  max-width: 1200px; /* Limita a largura do conteúdo */
+  margin: 0 auto; /* Centraliza o conteúdo */
+  padding: 20px;
+  flex-grow: 1; /* Permite que o conteúdo cresça */
+}
+
+/* Estilo para a Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Espalha os links */
+  align-items: center;
+  background-color: #333; /* Cor de fundo da Navbar */
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Estilo para o Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333; /* Cor de fundo do Footer */
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilo para a imagem de fundo */
+body {
+  background-image: url('caminho-da-imagem.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Estilo do texto principal */
+h1, p {
+  text-align: center;
+  color: #333;
+}

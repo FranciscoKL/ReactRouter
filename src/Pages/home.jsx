@@ -1,9 +1,9 @@
-import React from "react";
+
 
 const Home = () => {
   return (
     <div className="container">
-      <h1 className="title-home">Bem-vindo à ClinicaPet</h1>
+      <h1>Bem-vindo à ClinicaPet</h1>
       <aside className="aside">
         Na ClinicaPet, sabemos que seus pets são muito mais do que simples
         animais de estimação  eles são membros amados da sua família. Por isso,

@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import "../App.css";
 
 const Header = () => {
-    return (
-        <nav className="navbar">
-            <Link to="/">Home</Link>   
-            <Link to="/page2">Pagina-2</Link>
-        </nav>
-    );
+  return (
+    <nav className="navbar">
+      <Link to="/">Home</Link>
+
+      <Link to="/page2">Contatos</Link>
+    </nav>
+  );
 };
 export default Header;
